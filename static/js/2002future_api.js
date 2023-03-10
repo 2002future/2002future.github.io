@@ -1,5 +1,5 @@
 var  api_wuyu="https://api.yimian.xyz/img?type=head";  //头像
-var  bg_image=["https://api.yimian.xyz/img?type=head",
+var  bg_image=["https://api.r10086.com/img-api.php?type=风景系列2",
                "https://api.r10086.com/img-api.php?type=P站系列1",
 			   "https://api.r10086.com/img-api.php?type=风景系列1"
               ];
