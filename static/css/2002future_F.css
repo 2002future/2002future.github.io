@@ -1,0 +1,47 @@
+#future_F1>button{
+	background: linear-gradient(to right, #FF0066 0%, #FF00CC 100%);
+     color: white;
+	 height: 25px;
+	 border: 1px solid white;
+	 border-radius: 10%;
+	 
+}
+#future_F1>button>a{
+	text-decoration: none;
+	color: white
+}
+#future_F1>button:hover{
+	font-weight: bold;	
+}
+
+
+
+
+/* 留言板功能实现 */
+#future_content{
+	width: 500px;
+	height: 300px;
+	border: 1px solid red;
+	padding-top: 10px;
+}
+
+#future_content img{
+	
+	border-radius: 50%;
+	float: left;
+}
+#future_content>div:nth-child(2n){
+	background-color: #eeeeee;
+}
+#future_content>div{
+  
+	height: 50px;
+	
+}
+#future_content>div>h3{
+	background-color: #81bbee;
+	margin-left: 100px;
+	width: 100px;
+	
+	border-radius: 10%;
+}

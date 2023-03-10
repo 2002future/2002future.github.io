@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
+		<title>秋晨未已</title>
+		<meta name="description" content="00后青年">
+		<meta name="keywords" content="Java,Spring,个人博客，微信小程序，博客">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="static/css/index.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.css">
+		<link rel="stylesheet" href="static/css/2002future_F.css" />   <!-- 个人css -->
+	</head>
+
+	<body>
+		<div id="body-wrap">
+		
+			<main id="content-outer">
+				<div class="layout_page" id="content-inner">   <!-- 主体内容 -->
+					<div class="aside_content" id="aside_content">   <!-- 左边导航 -->
+						<div class="card-widget card-announcement">
+							<div class="card-content">
+								<div class="item-headline">
+									<i class="fa fa-calendar" aria-hidden="true"></i>
+									<span>集成功能</span>
+								</div>
+								<div id="future_F1">
+									<button><a href="index.html">返回主页</a></button>
+									<button><a href="F_chat.html">聊天室</a></button>
+									<button><a>转盘</a></button>
+									<button><a>小游戏</a></button>									
+									<span>开发中。。。</span>
+								</div>
+							</div>
+						</div>		
+					</div>	
+					<article id="page">
+						<div class="article-container">
+							<hr>
+							<h2>留言板</h2>
+							<div id="future_content"></div>
+							 <div id="future_F1">
+								<button onclick="deleteToLocalStorage()">清除留言板</button>
+								 <input type="text" id="F_future1"/> <button onclick="saveToLocalStorage()">发送</button>
+							 </div>
+						</div>
+					</article>
+				</div>
+			</main>
+			<footer id="footer">
+				<div id="footer-wrap">
+					<div class="copyright">&copy;2023 by 2002future overwrite</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.js"></script>
+		<script src="static/js/F_future.js"></script>
+		
+
+	</body>
+
+</html>

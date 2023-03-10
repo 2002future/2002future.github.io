@@ -1,204 +1,220 @@
 <!DOCTYPE html>
 <html lang="zh">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
-    <title>秋晨未已</title>
-    <meta name="description" content="00后青年">
-    <meta name="keywords" content="Java,Spring,个人博客，微信小程序，博客">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="static/css/index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.css">  
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
+		<title>秋晨未已</title>
+		<meta name="description" content="00后青年">
+		<meta name="keywords" content="Java,Spring,个人博客，微信小程序，博客">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="static/css/index.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.css">
+		<link rel="stylesheet" href="static/css/2002future_F.css" />
+	</head>
 
-<body>
-    <div id="body-wrap">
-        <nav class="not_index_bg  api_use2" id="nav" style="">
-            <div id="page_site-info">
-                <div id="site-title">   <!--bg_color_title-->
-                    <span class="blogtitle"></span>
-                  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> 
-                    <script>				
-                        var typed = new Typed(".blogtitle", {
-                            strings: ['求知若饥，虚心若愚', 'Stay Hungry Stay Foolish'],
-                            startDelay: 300,
-                            typeSpeed: 100,
-                            loop: true,
-                            backSpeed: 50,
-                            showCursor: true
-                        });
-                    </script>
-                </div>
-            </div>
-        </nav>
-        <main id="content-outer">      
-            <div class="layout_page" id="content-inner">
-                <div class="aside_content" id="aside_content">
-                    <div class="card-widget card-info">
-                        <div class="card-content">
-                            <div class="card-info-avatar is-center">
-                                <img class="avatar-img" id="api_use1"                                   
-                                    alt="avatar">
-                                <div class="author-info__name">秋晨未已，晚风未晞</div>
-                                <div class="author-info__description">00后青年,缺乏社会的毒打：<span>柴宇轩</span></div>
-                            </div>
-                            <div class="card-info-social-icons is-center">
-                                <a class="social-icon" href="https://github.com/2002future" target="_blank">
-                                    <i class="fa fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card-widget card-announcement">
-                        <div class="card-content">
-                            <div class="item-headline">
-                                <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                <span>秋晨未已</span>
-                            </div>
-                            <div id="hitokoto"></div>
-                        </div>
-                    </div>
-                    <div class="card-widget card-announcement">
-                        <div class="card-content">
-                            <div class="item-headline">
-                                <i class="fa fa-calendar" aria-hidden="true"></i>
-                                <span>今日诗词</span>
-                            </div>
-                            <div id="jinrishici-sentence"></div>
-                        </div>
-                    </div>
-
-               
-                </div>
-                <article id="page">
-                    <div class="article-container">
-                        <h2>音乐</h2>
-						<!-- 填写个人歌单 auto值为个人歌单的url地址 -->
-                        <meting-js id="api-use3"  auto="http://y.qq.com/n/ryqq/playlist/8829991166.html">
-                        </meting-js>
-                        <hr>
-
-                        <h2>技能</h2>
-                        <div class="skillbox">
-                            <div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #FF0066 0%, #FF00CC 100%); width: 75%">
-                                    <span>Java</span>
-                                </div>
-                                <div class="skill-bar-percent">70%</div>
-                            </div>
-                            <div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #9900FF 0%, #CC66FF 100%); width: 40%">
-                                    <span>前端</span>
-                                </div>
-                                <div class="skill-bar-percent">40%</div>
-                            </div>
-                            <div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #2196F3 0%, #42A5F5 100%); width: 60%">
-                                    <span>Spring</span>
-                                </div>
-                                <div class="skill-bar-percent">60%</div>
-                            </div>
-                            <div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #00BCD4 0%, #80DEEA 100%); width: 70%">
-                                    <span>SpringMVC</span>
-                                </div>
-                                <div class="skill-bar-percent">70%</div>
-                            </div>
-                            <div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #00BCD4 0%, #f54009 100%); width: 80%">
-                                    <span>SpringBoot</span>
-                                </div>
-                                <div class="skill-bar-percent">20%</div>
-                            </div>
-                            <div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #4CAF50 0%, #81C784 100%); width: 60%">
-                                    <span>Mybatis</span>
-                                </div>
-                                <div class="skill-bar-percent">60%</div>
-                            </div>
-                            <div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #FFEB3B 0%, #FFF176 100%); width: 75%">
-                                    <span>数据结构与算法</span>
-                                </div>
-                                <div class="skill-bar-percent">75%</div>
-                            </div>
-                        </div>
-
-                        <hr>
-                        <h2>刷题</h2>
-                        <div class="tool">
-                            <a href="https://leetcode-cn.com/problemset/all/" target="_blank">Leetcode</a><br>
-                            <a href="https://www.nowcoder.com/ta/coding-interviews" target="_blank">剑指 Offer</a>
-                        </div>
-
-                        <hr>
-                        <h2>收藏</h2>
-                        <div class="tool">
-                            <a href="http://tooool.org/" target="_blank" rel="noopener noreferrer">程序员导航、</a>
-                            <a href="https://adzhp.cn/" target="_blank" rel="noopener noreferrer">爱达杂货铺、</a>
-                            <a href="http://ifeve.com/" target="_blank" rel="noopener noreferrer">并发编程网</a>
-                        </div>
-						 <hr>
-						<h2>文档网站</h2>
-						<div class="tool">
-						    <a href="https://maven.apache.org/" target="_blank" rel="noopener noreferrer">maven官网&nbsp;&nbsp;</a>
-						    <a href="https://mvnrepository.com/" target="_blank" rel="noopener noreferrer">maven坐标库&nbsp;&nbsp;</a>
-						    <a href="https://www.coderutil.com/" target="_blank" rel="noopener noreferrer">程序员盒子</a>
+	<body>
+		<div id="body-wrap">
+			<nav class="not_index_bg  api_use2" id="nav" style="">
+				<div id="page_site-info">
+					<div id="site-title">
+						<!--bg_color_title-->
+						<span class="blogtitle"></span>
+						<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+						<script>
+							var typed = new Typed(".blogtitle", {
+								strings: ['求知若饥，虚心若愚', 'Stay Hungry Stay Foolish'],
+								startDelay: 300,
+								typeSpeed: 100,
+								loop: true,
+								backSpeed: 50,
+								showCursor: true
+							});
+						</script>
+					</div>
+				</div>
+			</nav>
+			<main id="content-outer">
+				<div class="layout_page" id="content-inner">
+					<div class="aside_content" id="aside_content">
+						<div class="card-widget card-info"><!-- 主页头像 -->
+							<div class="card-content"> 
+								<div class="card-info-avatar is-center">
+									<img class="avatar-img" id="api_use1" alt="avatar">
+									<div class="author-info__name">秋晨未已，晚风未晞</div>
+									<div class="author-info__description">00后青年,缺乏社会的毒打：<span>柴宇轩</span></div>
+								</div>
+								<div class="card-info-social-icons is-center">
+									<a class="social-icon" href="https://github.com/2002future" target="_blank">
+										<i class="fa fa-github"></i>
+									</a>
+								</div>
+							</div>
 						</div>
-						
-                    </div>
-                </article>
-            </div>
-        </main>
-        <footer id="footer">
-            <div id="footer-wrap">
-                <div class="copyright">&copy;2023 by 2002future overwrite</div>
-            </div>
-        </footer>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.js"></script>
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.js" type="module"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js" async></script>
-	
-    <!-- aplayer、meting -->
-    <!-- require APlayer -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-    <!-- require MetingJS -->
-    <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+						<div class="card-widget card-announcement"><!-- 语句 -->							
+							<div class="card-content">
+								<div class="item-headline">
+									<i class="fa fa-bullhorn" aria-hidden="true"></i>
+									<span>秋晨未已</span>
+								</div>
+								<div id="hitokoto"></div>
+							</div>
+						</div>
+						<div class="card-widget card-announcement"><!-- 今日诗词 -->					
+							<div class="card-content">
+								<div class="item-headline">
+									<i class="fa fa-calendar" aria-hidden="true"></i>
+									<span>今日诗词</span>
+								</div>
+								<div id="jinrishici-sentence"></div>
+							</div>
+						</div>
 
-    <!-- nplayer -->
-    <script src="https://unpkg.com/nplayer@latest/dist/index.min.js"></script>
+						<div class="card-widget card-announcement">
+							<div class="card-content">
+								<div class="item-headline">
+									<i class="fa fa-calendar" aria-hidden="true"></i>
+									<span>集成功能</span>
+								</div>
+								<div id="future_F1">
+									<button><a href="F_chat.html">留言板</a></button>
+									<button><a>转盘</a></button>
+									<button><a>小游戏</a></button>
+									<span>开发中。。。</span>
+								</div>
+							</div>
+						</div>
 
-    <!--   一言、今日诗词   -->
-    <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+					</div>
+					<article id="page">
+						<div class="article-container">
+							<h2>音乐</h2>
+							<!-- 填写个人歌单 auto值为个人歌单的url地址 -->
+							<meting-js id="api-use3" auto="http://y.qq.com/n/ryqq/playlist/8829991166.html">
+							</meting-js>
+							<hr>
 
-   
+							<h2>技能</h2>
+							<div class="skillbox">
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #FF0066 0%, #FF00CC 100%); width: 75%">
+										<span>Java</span>
+									</div>
+									<div class="skill-bar-percent">70%</div>
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #9900FF 0%, #CC66FF 100%); width: 40%">
+										<span>前端</span>
+									</div>
+									<div class="skill-bar-percent">40%</div>
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #2196F3 0%, #42A5F5 100%); width: 60%">
+										<span>Spring</span>
+									</div>
+									<div class="skill-bar-percent">60%</div>
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #00BCD4 0%, #80DEEA 100%); width: 70%">
+										<span>SpringMVC</span>
+									</div>
+									<div class="skill-bar-percent">70%</div>
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #00BCD4 0%, #f54009 100%); width: 80%">
+										<span>SpringBoot</span>
+									</div>
+									<div class="skill-bar-percent">20%</div>
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #4CAF50 0%, #81C784 100%); width: 60%">
+										<span>Mybatis</span>
+									</div>
+									<div class="skill-bar-percent">60%</div>
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #FFEB3B 0%, #FFF176 100%); width: 75%">
+										<span>数据结构与算法</span>
+									</div>
+									<div class="skill-bar-percent">75%</div>
+								</div>
+							</div>
 
-    <!--鼠标点击效果-->
-    <script src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.8/js/maodian.js"></script>
-    
-    <!-- 雪花效果 -->
-    <script src="static/js/snowflake.js"></script>
-	
-	<!-- api集成 -->
-    <script src="static/js/2002future_api.js"></script>
-	
-</body>
+							<hr>
+							<h2>刷题</h2>
+							<div class="tool">
+								<a href="https://leetcode-cn.com/problemset/all/" target="_blank">Leetcode</a><br>
+								<a href="https://www.nowcoder.com/ta/coding-interviews" target="_blank">剑指 Offer</a>
+							</div>
+
+							<hr>
+							<h2>收藏</h2>
+							<div class="tool">
+								<a href="http://tooool.org/" target="_blank" rel="noopener noreferrer">程序员导航、</a>
+								<a href="https://adzhp.cn/" target="_blank" rel="noopener noreferrer">爱达杂货铺、</a>
+								<a href="http://ifeve.com/" target="_blank" rel="noopener noreferrer">并发编程网</a>
+							</div>
+							<hr>
+							<h2>文档网站</h2>
+							<div class="tool">
+								<a href="https://maven.apache.org/" target="_blank"
+									rel="noopener noreferrer">maven官网&nbsp;&nbsp;</a>
+								<a href="https://mvnrepository.com/" target="_blank"
+									rel="noopener noreferrer">maven坐标库&nbsp;&nbsp;</a>
+								<a href="https://www.coderutil.com/" target="_blank" rel="noopener noreferrer">程序员盒子</a>
+							</div>
+
+						</div>
+					</article>
+				</div>
+			</main>
+			<footer id="footer">
+				<div id="footer-wrap">
+					<div class="copyright">&copy;2023 by 2002future overwrite</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.js"></script>
+		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.js" type="module"></script>
+		<script src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js" async></script>
+
+		<!-- aplayer、meting -->
+		<!-- require APlayer -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+		<!-- require MetingJS -->
+		<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+		<!-- nplayer -->
+		<script src="https://unpkg.com/nplayer@latest/dist/index.min.js"></script>
+
+		<!--   一言、今日诗词   -->
+		<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+		<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+
+
+
+		<!--鼠标点击效果-->
+		<script src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.8/js/maodian.js"></script>
+
+		<!-- 雪花效果 -->
+		<script src="static/js/snowflake.js"></script>
+
+		<!-- api集成 -->
+		<script src="static/js/2002future_api.js"></script>
+
+	</body>
 
 </html>
