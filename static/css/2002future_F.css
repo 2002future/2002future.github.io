@@ -1,5 +1,5 @@
 #future_F1>button{
-	background: linear-gradient(to right, #FF0066 0%, #FF00CC 100%);
+
      color: white;
 	 height: 25px;
 	 border: 1px solid white;
@@ -19,7 +19,7 @@
 
 /* 留言板功能实现 */
 #future_content{
-	width: 500px;
+	width: 350px;
 	height: 300px;
 	border: 1px solid red;
 	padding-top: 10px;
