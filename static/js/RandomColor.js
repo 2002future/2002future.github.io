@@ -1,7 +1,7 @@
 // 随机颜色
 
 var bg_color = ["linear-gradient(to right, #FF0066 0%, #FF00CC 100%)",
-	"linear-gradient(to right, #FF0066 0% , #FF00CC 100%)",
+	"linear-gradient(to right, #FF0066 0% , #FF00CC 100%)",	
 	"linear-gradient(to right, #9900FF 0%, #CC66FF 100%)",
 	"linear-gradient(to right, #2196F3 0%, #42A5F5 100%)",
 	"linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)",
