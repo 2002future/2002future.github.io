@@ -19,7 +19,11 @@
 			    var word=document.getElementById("inpu").value;
 			    window.location.href="https://svip.bljiex.cc/?url="+word;
 		   }
-		     
+		     function clckvipdelete(){
+				 
+				 var word=document.getElementById("inpu").value="";
+			
+			 }
 				 
 		 </script>
 	</head>
@@ -79,7 +83,8 @@
 									</div>
 									<div id="">
 										<input type="text" id="inpu"  >
-										<button  id="clck" onclick="clckvip()" >点击</button>
+										<button  class="clck" onclick="clckvip()" >点击</button>
+										<button  class="clck" onclick="clckvipdelete()">清空内容</button>
 									</div>
 								</div>								
 						</div>

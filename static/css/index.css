@@ -388,13 +388,12 @@ aside_content .card-info .author-info__description {
 	background-color: transparent
 }
 
-#clck {
+.clck {
 	background-color: #49B1F5;
 	color: white;
 	border: 1px solid whitesmoke;
 	border-radius: 5px;
 }
-#clck:hover{
+.clck:hover{
 	color: red;
 }
-
